@@ -485,3 +485,63 @@ transition:.3s;
 transform:translateX(4px);
 opacity:.85;
 }
+.whatsapp-link{
+color:#25D366;
+text-decoration:none;
+display:flex;
+align-items:center;
+gap:8px;
+font-size:13px;
+transition:.3s;
+}
+
+.whatsapp-link:hover{
+opacity:.8;
+transform:translateY(-2px);
+}
+
+.whatsapp-link i{
+font-size:18px;
+}
+/* LINKEDIN */
+.linkedin-link{
+color:#0A66C2;
+text-decoration:none;
+display:flex;
+align-items:center;
+gap:8px;
+font-size:13px;
+font-weight:500;
+transition:.3s;
+}
+
+.linkedin-link:hover{
+opacity:.85;
+transform:translateY(-2px);
+}
+
+.linkedin-link i{
+font-size:18px;
+color:#0A66C2;
+}
+/* GITHUB */
+.github-link{
+color:#ffffff;
+text-decoration:none;
+display:flex;
+align-items:center;
+gap:8px;
+font-size:13px;
+font-weight:500;
+transition:.3s;
+}
+
+.github-link:hover{
+opacity:.85;
+transform:translateY(-2px);
+}
+
+.github-link i{
+font-size:18px;
+color:#ffffff;
+}
